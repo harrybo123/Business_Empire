@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Business Game</h1>
+        <div class="inventory">
+            <h2>Inventory</h2>
+            <p id="inventory"></p>
+        </div>
+        <div class="actions">
+            <h2>Actions</h2>
+            <button onclick="buyGoods()">Buy Goods</button>
+            <button onclick="invest()">Invest</button>
+            <button onclick="market()">Market</button>
+        </div>
+        <div class="money">
+            <h2>Money</h2>
+            <p id="money">$100</p>
+        </div>
+        <div class="statistics">
+            <h2>Business Statistics</h2>
+            <p id="sellingPrice">Selling Price: $20 + $5 per marketing level</p>
+            <p id="marketingLevel">Marketing Level: 0</p>
+            <p id="investmentStatus">Investment Status: None</p>
+            <p id="businessPosition">Business Position: Stable</p>
+            <p id="reputation">Reputation: Good</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
